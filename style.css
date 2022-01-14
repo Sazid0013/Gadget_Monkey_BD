@@ -121,6 +121,8 @@ margin: 0 5em;
 .note{
     color: blue;
 }
+
+/* Second Button */
  a{
     text-decoration: none;
 }
@@ -179,16 +181,16 @@ margin: 0 5em;
 
 /* Mobile Device */
 @media only screen and (max-width: 680px) {
-    .container, .ec-logo, .popular-collection, .second, .optional,.about-watch,.watch .footer{
+    .container, .ec-logo, .popular-collection, .second, .optional,.about-watch,.watch ,.footer,.second-button{
         width: 100%;
         margin: 0;
         padding: 0;
         align-items: center;
     }
-    .feature-products, .collections, .extra-product,.about-watch,.watch{
+    .feature-products, .collections, .extra-product,.about-watch,.watch,.second-button{
         grid-template-columns: repeat(1,1fr);
     }
-    .feature-product, .collection , .third-button,.about-watch,.watch{ 
+    .feature-product, .collection , .third-button,.about-watch,.watch,.second-button{ 
         flex-direction: column;
     }
 }
@@ -196,17 +198,17 @@ margin: 0 5em;
 /* Tablet Devices */
 @media only screen and (min-width: 685px) and (max-width: 992px){
    
-    .container, .ec-logo, .popular-collection, .second, .optional,.about-watch,.watch .footer{
+    .container, .ec-logo, .popular-collection, .second, .optional,.about-watch,.watch ,.footer,.second-button{
         width: 100%;
         margin: 0;
         padding: 0;
         align-items: center;
        
     }
-    .feature-products, .collections, .extra-product, .about-watch,.watch{
+    .feature-products, .collections, .extra-product, .about-watch,.watch,.second-button{
         grid-template-columns: repeat(2,1fr);
     }
-    .feature-product, .collection, .third-button,.about-watch,.watch{
+    .feature-product, .collection, .third-button,.about-watch,.watch,.second-button{
         flex-direction: column;
     }
 }
