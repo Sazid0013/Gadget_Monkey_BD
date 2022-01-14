@@ -1,7 +1,6 @@
 /* Main Body */
 body{
-    font-family: 'Poppins', sans-serif;
-font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik', sans-serif;
 margin: 0 5em;
 }
 /* Logo & name */
@@ -184,18 +183,20 @@ Menue
 
 
 /* Media Queires */
+
+
 /* Mobile Device */
 @media only screen and (max-width: 680px) {
-    .container, .ec-logo, .popular-collection, .second, .optional, .footer{
+    .container, .ec-logo, .popular-collection, .second, .optional,.about-watch,.watch .footer{
         width: 100%;
         margin: 0;
         padding: 0;
         align-items: center;
     }
-    .feature-products, .collections, .extra-product{
+    .feature-products, .collections, .extra-product,.about-watch,.watch{
         grid-template-columns: repeat(1,1fr);
     }
-    .feature-product, .collection , .third-button{ 
+    .feature-product, .collection , .third-button,.about-watch,.watch{ 
         flex-direction: column;
     }
 }
@@ -203,17 +204,17 @@ Menue
 /* Tablet Devices */
 @media only screen and (min-width: 685px) and (max-width: 992px){
    
-    .container, .ec-logo, .popular-collection, .second, .optional, .footer{
+    .container, .ec-logo, .popular-collection, .second, .optional,.about-watch,.watch .footer{
         width: 100%;
         margin: 0;
         padding: 0;
         align-items: center;
        
     }
-    .feature-products, .collections, .extra-product{
+    .feature-products, .collections, .extra-product, .about-watch,.watch{
         grid-template-columns: repeat(2,1fr);
     }
-    .feature-product, .collection, .third-button{
+    .feature-product, .collection, .third-button,.about-watch,.watch{
         flex-direction: column;
     }
 }
