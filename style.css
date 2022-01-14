@@ -40,3 +40,13 @@ Menue
   .cart{
       padding-left: 1400px;
   }
+
+  /* Feature Product */
+  button{
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color:  #E02C6D;
+    border: 1px solid white;
+    border-radius: 41px;
+  }
