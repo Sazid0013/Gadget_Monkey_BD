@@ -65,7 +65,8 @@ margin: 0 5em;
   }
   .feature-camera:hover .photo{
     transform:rotate(720deg);
-    transition: transform 3s ease-in-out;
+    transition: transform 3s  linear;
+    transition:;
   }
 
   /* E-commerce Logo */
