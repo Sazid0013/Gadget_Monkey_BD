@@ -8,16 +8,9 @@ margin: 0 5em;
 
     color: green;
 }
-/* 
-Menue
- */
 
   /* NAV Bar */
-/* ul{
-    display: grid;
-      grid-template-columns:repeat(7, 1fr);
-} */
- 
+
   ul {
     list-style-type: none;
     margin: 0;
@@ -89,9 +82,6 @@ Menue
       padding-left: 400px;
       align-items: center;
   }
-  /* .section-title{
-      padding-bottom: 15px;
-  } */
   .collections{
     display: grid;
     grid-template-columns: repeat(3,1fr);
