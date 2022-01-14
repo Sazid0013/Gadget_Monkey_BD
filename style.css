@@ -1,0 +1,42 @@
+body{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+}
+/* Logo & name */
+.name{
+
+    color: green;
+}
+/* 
+Menue
+ */
+
+  /* NAV Bar */
+ 
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(221, 146, 146);
+    color: black;
+  }
+  .cart{
+      padding-left: 1400px;
+  }
