@@ -1,6 +1,11 @@
+/* Main Body */
 body{
     font-family: 'Poppins', sans-serif;
 font-family: 'Rubik', sans-serif;
+margin: 0 5em;
+}
+hr{
+    border: 50px solid white;
 }
 /* Logo & name */
 .name{
@@ -38,10 +43,17 @@ Menue
     color: black;
   }
   .cart{
-      padding-left: 1400px;
+      padding-left: 1280px;
   }
 
   /* Feature Product */
+  .container{
+      margin: 2em;
+  }
+  .feature-product{
+    display: flex;
+    flex-direction: row; 
+  }
   button{
     width: 200px;
     height: 50px;
@@ -50,3 +62,53 @@ Menue
     border: 1px solid white;
     border-radius: 41px;
   }
+  .feature-camera{
+      background-image:url(images/Circle\ design.svg);
+      background-repeat: no-repeat;
+    width: 100%;
+    height: 40%;
+  }
+
+  /* E-commerce Logo */
+  .ec-logo{
+      display: grid;
+      grid-template-columns:repeat(7, 1fr);
+      padding-left: 35px;
+  }
+
+  /* Popular Collection */
+  .collections{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 24px;
+    width: 253px;
+    box-shadow: honeydew;
+    border-radius: 5px;
+}
+.collection .collection-banner img{
+    width: 224px;
+    height: 104px;
+}
+.collection-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-star{
+    font-size: 12px;
+    background-color: white;
+    color:  #ffc014;
+}
+.fa-star.empty{
+    color: #aeaeae  ;
+}
+.fa-clock{
+    color: crimson;
+}
+span{
+    color: gray;
+}
+.course-duration{
+    background-color: rgba(247, 3, 52, 0.247);
+    border-radius: 10px;
+}
