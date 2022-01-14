@@ -50,6 +50,7 @@ Menue
   .container{
     margin: 2em ;
     padding-left: 400px;
+    padding-bottom: 5em;
   }
   .feature-product{
     display: flex;
@@ -78,13 +79,12 @@ Menue
   .ec-logo{
       display: grid;
       grid-template-columns:repeat(7, 1fr);
-      padding-top: px;
-      padding-left: 55px;
+      padding-left: 135px;
   }
 
   /* Popular Collection */
   .popular-collection{
-      padding-top: 10em;
+      padding-top: 5em;
       margin: 2em ;
       padding-left: 400px;
       align-items: center;
@@ -145,10 +145,11 @@ Menue
 .optional{
     margin: 2em ;
     padding-left: 400px;
+    padding-top: 5em;
   }
 .watch{
     
-    height: 500px;
+    height: 300px;
     display: flex;
     flex-direction: row; 
   }
@@ -160,7 +161,7 @@ Menue
   }
 .about-watch{
     padding-left: 2em;
-    padding-top: 8em;
+    padding-top: 15px;
 }  
 .third-button{
     width: 250px;
