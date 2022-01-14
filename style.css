@@ -4,9 +4,6 @@ body{
 font-family: 'Rubik', sans-serif;
 margin: 0 5em;
 }
-hr{
-    border: 50px solid white;
-}
 /* Logo & name */
 .name{
 
@@ -43,12 +40,13 @@ Menue
     color: black;
   }
   .cart{
-      padding-left: 1280px;
+      padding-left: 1270px;
   }
 
   /* Feature Product */
   .container{
-      margin: 2em;
+    margin: 2em ;
+    padding-left: 400px;
   }
   .feature-product{
     display: flex;
@@ -73,10 +71,20 @@ Menue
   .ec-logo{
       display: grid;
       grid-template-columns:repeat(7, 1fr);
-      padding-left: 35px;
+      padding-top: px;
+      padding-left: 55px;
   }
 
   /* Popular Collection */
+  .popular-collection{
+      padding-top: 10em;
+      margin: 2em ;
+      padding-left: 400px;
+      align-items: center;
+  }
+  /* .section-title{
+      padding-bottom: 15px;
+  } */
   .collections{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -84,10 +92,14 @@ Menue
     width: 253px;
     box-shadow: honeydew;
     border-radius: 5px;
+    
+}
+.collection{
+    padding-top: 30px;
 }
 .collection .collection-banner img{
-    width: 224px;
-    height: 104px;
+    width: 300px;
+    height: 300px;
 }
 .collection-info{
     display: flex;
@@ -105,10 +117,9 @@ Menue
 .fa-clock{
     color: crimson;
 }
-span{
+.reating{
     color: gray;
 }
-.course-duration{
-    background-color: rgba(247, 3, 52, 0.247);
-    border-radius: 10px;
+.note{
+    color: blue;
 }
